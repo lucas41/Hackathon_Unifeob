@@ -17,13 +17,13 @@
 jQuery(document).ready(function($) { 
     $(".scroll").click(function(event){        
         event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 850);
    });
 });
 </script>
  
 
-  
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     </head>
   <body>
   <div class="navbar-fixed">
@@ -32,14 +32,14 @@ jQuery(document).ready(function($) {
         <div class="ea k" style="background-image: url('//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/icon-seamless.png?v=16169594983224640439');"></div>
       </div>
     <div class="nav-wrapper yellow darken-2">
-      <a href="#" class="brand-logo">Logo</a>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="img/logo.png" width="125" height="60"><a href="#"  ></a></img>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="scroll" href="/#inicio">inicio</a></li>
         <li><a class="scroll" href="/#app1">APP 1</a></li>
         <li><a class="scroll" href="/#app2">APP 2</a></li>
         <li><a class="scroll" href="/#app3">APP 3</a></li>
         <li><a class="scroll"href="/#equipe">equipe</a></li>
-        <li><a class="scroll"href="collapsible.html">JavaScript</a></li>
+        <li><a  href="/login" >Entrar</a></li>
       </ul>
     </div>
   </nav>
@@ -108,7 +108,7 @@ jQuery(document).ready(function($) {
   <div class="modal-content">
     <h4>Modal Header  <a href="#!" class="modal-close material-icons right">close</a></h4> 
     <div class="video-container">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/G1IbRujko-A" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/G1IbRujko-A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
       <br><br>
 
@@ -121,7 +121,7 @@ jQuery(document).ready(function($) {
       <div class="row container" >
       <h1 class="header center orange-text">APP 1</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Breve descrição a respeito do projeto </h5>
+        <h5 class="header col s12 light">Breve descrição do primeiro app </h5>
       </div>
       <div class="row center">
       <p> Veja um video sobre nosso projeto </p>
@@ -137,13 +137,14 @@ jQuery(document).ready(function($) {
       <div class="parallax"><img src="img/floresta.jpg"></div>
     </div>
 <br>
+
 <br id="app2">
     <div class="container" id="app2">
     <div class="section white" >
       <div class="row container" >
       <h1 class="header center orange-text">APP 2</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Breve descrição a respeito do projeto </h5>
+        <h5 class="header col s12 light">Breve descrição do segundo app  </h5>
       </div>
       <div class="row center">
       <p> Veja um video sobre nosso projeto </p>
@@ -152,17 +153,18 @@ jQuery(document).ready(function($) {
       </div>
     </div>
     </div>
-<br>
+
 <div class="parallax-container">
       <div class="parallax"><img src="img/floresta.jpg"></div>
     </div>
+    <br><br>
     <br id="app3">
     <div class="container">
     <div class="section white" >
       <div class="row container" >
       <h1 class="header center orange-text">APP 3</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Breve descrição a respeito do projeto </h5>
+        <h5 class="header col s12 light">Breve descrição do 3 app</h5>
       </div>
       <div class="row center">
       <p> Veja um video sobre nosso projeto </p>
@@ -176,7 +178,37 @@ jQuery(document).ready(function($) {
       <div class="parallax"><img src="img/floresta.jpg"></div>
     </div>
     <br>
+      
+    <br  id="app1">
+<div class="container" >
+    <div class="section white" >
+      <div class="row container" >
+      <h1 class="header center orange-text">Cadastre-se agora mesmo</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Breve descrição do primeiro app </h5>
+      </div>
+      <div class="row center">
+      <p> Veja um video sobre nosso projeto </p>
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Modal</a>
+      </div>
+      </div>
+    </div>
+    </div>
 
+
+    <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Faça seu Cadastro agora mesmo </h4>
+      <br>
+      <h5> Cadastro de Usuario  <a href="/register" class="btn-floating pulse yellow darken-2"><i class="material-icons">add_circle</i></a></h5>
+      
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+<br>
   
   <center>
 
@@ -300,7 +332,7 @@ jQuery(document).ready(function($) {
   </div>
   </div>
   </div>
-
+  </div>
   <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>    
     <script type="text/javascript">
@@ -316,23 +348,22 @@ jQuery(document).ready(function($) {
     });
     document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems, options );
+    var instances = M.Modal.init(elems);
   });
 
   // Or with jQuery
 
   $(document).ready(function(){
     $('.modal').modal();
-  });s    
+  });
 
   
   
 
     </script>
 
-
 <footer class="page-footer yellow darken-2">
-          <div class="container " >
+          <div class="container">
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Footer Content</h5>
@@ -356,5 +387,6 @@ jQuery(document).ready(function($) {
             </div>
           </div>
         </footer>
+
     </body>
   </html>
