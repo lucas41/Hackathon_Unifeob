@@ -1,3 +1,24 @@
+# HACKATHON UNIFEOB 2020
+Repositorio feito pelos participantes da Hackathon 2020, contendo os arquivos utilizados no site. A proposta de inovação do time foi a criação de 3 aplicativos: 
+1. O primeiro aplicativo é para cadastro de produtos e serviços, que sera usado por varejistas e trabalhadores informais; 
+1. O segundo aplicativo é para os consumidores, sendo possivel encontrar os servicos e produtos de sua cidade de forma facil e agil;
+1. Já o ultimo aplicativo, é uma rede de entregadores para que as entregas sejam rapidas.
+
+**Todo conteudo desenvolvido:** <br>
+
+[ Site ](www.teste.com.br) <br>
+[Apresentacao de slides](https://docs.google.com/presentation/d/1XY7U_hdEM192isN0cG23SyerwAR5lZeH9yBrSGCNRkE/edit?usp=sharing) <br>
+[App Cadastro.já](https://www.youtube.com/watch?v=n0T3J3jjaww) <br>
+[App Compre.já](https://www.youtube.com/watch?v=CXztgrv4Mjg) <br>
+[App Entrega.já](https://www.youtube.com/watch?v=ZJJEeshvc1I) <br>
+
+
+Esperamos ter ajudado! 
+
+<img src="https://media2.giphy.com/media/349qKnoIBHK1i/giphy.gif?cid=ecf05e47b6tkfpaiphe7f1sxlzkovbr67i8ko4xp45717c2y&rid=giphy.gif" width="600"/>
+
+
+--------------------------------------------------------------------------------------------------------------------
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
