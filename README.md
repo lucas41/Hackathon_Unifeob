@@ -13,7 +13,7 @@ Repositorio feito pelos participantes da Hackathon 2020, contendo os arquivos ut
 [App Entrega.já](https://www.youtube.com/watch?v=ZJJEeshvc1I) <br>
 
 
-Esperamos ter ajuda-lo! 
+Esperamos ter ajudado! 
 
 <img src="https://media2.giphy.com/media/349qKnoIBHK1i/giphy.gif?cid=ecf05e47b6tkfpaiphe7f1sxlzkovbr67i8ko4xp45717c2y&rid=giphy.gif" width="600"/>
 
