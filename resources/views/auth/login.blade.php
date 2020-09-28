@@ -18,7 +18,7 @@
      }
      body {
         margin: 150px;
-        background-image: url("https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2019/03/legiao_zTBhdxM_Iti2oaEOFU0Rbum7KJnN8AfZHlrCQV9vps.jpg.jpeg"); 
+        background-image: url("img/fundo.jpg"); 
  }
  </style>
 

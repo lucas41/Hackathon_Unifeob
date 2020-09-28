@@ -22,10 +22,10 @@ jQuery(document).ready(function($) {
 });
 </script>
  
-
+<title>Boas Vindas ao Compre.já</title>
 <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     </head>
-  <body>
+  <body >
   <div class="navbar-fixed">
     <nav>
     <div class="nav-background">
@@ -34,12 +34,13 @@ jQuery(document).ready(function($) {
     <div class="nav-wrapper yellow darken-2">
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="img/logo.png" width="125" height="60"><a href="#"  ></a></img>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a class="scroll" href="/#inicio">inicio</a></li>
-        <li><a class="scroll" href="/#app1">APP 1</a></li>
-        <li><a class="scroll" href="/#app2">APP 2</a></li>
-        <li><a class="scroll" href="/#app3">APP 3</a></li>
-        <li><a class="scroll"href="/#equipe">equipe</a></li>
+        <li><a class="scroll" href="/#inicio">Início</a></li>
+        <li><a class="scroll" href="/#app1">Compra.já</a></li>
+        <li><a class="scroll" href="/#app2">Cadastro.já</a></li>
+        <li><a class="scroll" href="/#app3">Entrega.já</a></li>
+        <li><a class="scroll" href="/#cad">Cadastro</a></li>
         <li><a  href="/login" >Entrar</a></li>
+        <li><a class="scroll"href="/#equipe">Equipe</a></li>
       </ul>
     </div>
   </nav>
@@ -48,31 +49,31 @@ jQuery(document).ready(function($) {
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="img/carrosel 1.jpeg"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/carrosel 2.jpeg"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <img src="img/img1.jpg"> <!-- random image -->
         <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h3><b>Compre.já</b></h3>
+          <h5 class="light grey-text text-lighten-3"><b>Sua compra local online!</b></h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/img2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3><b>Fácil</b></h3>
+          <h5 class="light grey-text text-lighten-3"><b>Venda seus produtos com facilidade!</b></h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/img3.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3><b>Prático</b></h3>
+          <h5 class="light grey-text text-lighten-3"><b>Venda até mesmo sem sair de casa.</b></h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/img4.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3><b>Ágil</b></h3>
+          <h5 class="light grey-text text-lighten-3"><b>Contrate um serviço pelo celular!</b></h5>
         </div>
       </li>
     </ul>
@@ -82,50 +83,72 @@ jQuery(document).ready(function($) {
     <div class="container">
     <div class="section white" >
       <div class="row container" >
-      <h1 class="header center orange-text">Nome do Projeto Aqui</h1>
+      <h1 class="header center orange-text">Compre.já</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Breve descrição a respeito do projeto </h5>
+        <h5 class="header col s12 light">Sua compra local online!</h5>
       </div>
       <div class="row center">
-      <p> Veja um video sobre nosso projeto </p>
-      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+      <p>Facilidade, praticidade e agilidade que cabe na sua mão!</p>
       </div>
       </div>
     </div>
     </div>
   <div class="parallax-container">
-      <div class="parallax"><img src="img/floresta2.jpg"></div>
+      <div class="parallax"><img src="img/fundo.jpg"></div>
     </div>
- 
-        
 
-
- 
 <div class="row center">
           <!-- Modal Trigger -->
 <!-- Modal Structure -->
 <div id="modal1" class="modal">
   <div class="modal-content">
-    <h4>Modal Header  <a href="#!" class="modal-close material-icons right">close</a></h4> 
+    <h4>APP Compre.já<a href="#!" class="modal-close material-icons right">close</a></h4> 
     <div class="video-container">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/G1IbRujko-A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="853" height="480" src="img/app1.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
       <br><br>
-
     </div>
   </div>
+
+
+<div id="modal12" class="modal">
+  <div class="modal-content">
+    <h4>APP Cadastro.já<a href="#!" class="modal-close material-icons right">close</a></h4> 
+    <div class="video-container">
+    <iframe width="853" height="480" src="img/app2.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+      <br><br>
+    </div>
+  </div>
+
+<div id="modal23" class="modal">
+  <div class="modal-content">
+    <h4>Entrega.já<a href="#!" class="modal-close material-icons right">close</a></h4> 
+    <div class="video-container">
+    <iframe width="853" height="480" src="img/app3.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+      <br><br>
+    </div>
+  </div>
+
+
 <br>
 <br  id="app1">
 <div class="container" >
     <div class="section white" >
       <div class="row container" >
-      <h1 class="header center orange-text">APP 1</h1>
+      <h1 class="header center orange-text">APP Compre.já</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Breve descrição do primeiro app </h5>
+        <h5 class="header col s12 light">Breve descrição</h5>
       </div>
       <div class="row center">
-      <p> Veja um video sobre nosso projeto </p>
-      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+      <p> Nosso primeiro aplicativo tem como objetivo ofecer o melhor acesso, facilidade e curto
+          prazo de entrega para clientes que desejam comprar com baixo custo nas lojas mais próximas
+          da sua região.
+      </p>
+      <br>
+      <p> Veja um video demonstrativo</p>
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">APP Compre.já</a>
       </div>
       </div>
     </div>
@@ -134,7 +157,7 @@ jQuery(document).ready(function($) {
 
 <br>
   <div class="parallax-container">
-      <div class="parallax"><img src="img/floresta.jpg"></div>
+      <div class="parallax"><img src="img/fundo3.jpg"></div>
     </div>
 <br>
 
@@ -142,60 +165,66 @@ jQuery(document).ready(function($) {
     <div class="container" id="app2">
     <div class="section white" >
       <div class="row container" >
-      <h1 class="header center orange-text">APP 2</h1>
+      <h1 class="header center orange-text">APP Cadastro.já</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Breve descrição do segundo app  </h5>
+        <h5 class="header col s12 light">Breve descrição</h5>
       </div>
       <div class="row center">
-      <p> Veja um video sobre nosso projeto </p>
-      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+      <p>Nosso segundo aplicativo desenvolvido é acessivel para todos trabalhadores
+          formais e informais que desejam cadastrar seus produtos na região, com objetivo
+          de melhorar e aumentar suas vendas.
+      </p>
+      <br>
+      <p> Veja um video demonstrativo</p>
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal12">APP Cadastro.já</a>
       </div>
       </div>
     </div>
     </div>
 
 <div class="parallax-container">
-      <div class="parallax"><img src="img/floresta.jpg"></div>
+      <div class="parallax"><img src="img/fundo2.jpg"></div>
     </div>
     <br><br>
     <br id="app3">
     <div class="container">
     <div class="section white" >
       <div class="row container" >
-      <h1 class="header center orange-text">APP 3</h1>
+      <h1 class="header center orange-text">APP Entrega.já</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Breve descrição do 3 app</h5>
+        <h5 class="header col s12 light">Breve descrição</h5>
       </div>
       <div class="row center">
-      <p> Veja um video sobre nosso projeto </p>
-      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+      <p>Nosso terceiro aplicativo oferece a oportunidade de cadastro
+          para fazer entregas onde quer que esteja, com suporte e assistência 24 horas.
+      </p>
+      <br>
+      <p> Veja um video demonstrativo</p>
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal23">APP Entrega.já</a>
       </div>
       </div>
     </div>
     </div>
     <br>
     <div class="parallax-container">
-      <div class="parallax"><img src="img/floresta.jpg"></div>
+      <div class="parallax"><img src="img/fundo1.jpg"></div>
     </div>
     <br>
       
-    <br  id="app1">
+    <br  id="cad">
 <div class="container" >
     <div class="section white" >
       <div class="row container" >
       <h1 class="header center orange-text">Cadastre-se agora mesmo</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Breve descrição do primeiro app </h5>
+        <h5 class="header col s12 light">Venha fazer parte dessa inovação!</h5>
       </div>
       <div class="row center">
-      <p> Veja um video sobre nosso projeto </p>
-      <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Modal</a>
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal2">CADASTRE-SE</a>
       </div>
       </div>
     </div>
     </div>
-
-
     <div id="modal2" class="modal">
     <div class="modal-content">
       <h4>Faça seu Cadastro agora mesmo </h4>
@@ -223,13 +252,13 @@ jQuery(document).ready(function($) {
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Carina Rodrigues</span>
       <br>
-      <img src="img/face.png" height="35" width="35"><a href="#"></a></img>
+      <a href="https://www.facebook.com/kakah.rodrigues.7"><img src="img/face.png" height="35" width="35"></a></img>
       &nbsp; 
-        <img src="img/likedin.png" height="35" width="35"><a href="#"></a></img>
+        <a href="https://www.linkedin.com/in/carina-rodrigues-1%C2%B0-8761051b0/"><img src="img/likedin.png" height="35" width="35"></a></img>
         
-        <img src="img/git.png" height="35" width="35"><a href="#"></a></img>
+        <a href="https://github.com/rodriguescarinaSI"><img src="img/git.png" height="35" width="35"></a></img>
         
-        <a href="mailto:email_que_recebe_as_mensagens@exemplo.com?Subject=Título%20da%20mensagem">  <img src="img/email3.png" height="35" width="35"> </img> </a>
+        <a href="mailto:rodrigues.carina99@outlook.com?Subject=Título%20da%20mensagem">  <img src="img/email3.png" height="35" width="35"> </img> </a>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Quem sou?<i class="material-icons right">close</i></span>
@@ -246,17 +275,17 @@ jQuery(document).ready(function($) {
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Guilherme Reis</span>
       <br>
-      <img src="img/face.png" height="35" width="35"><a href="#"></a></img>
+      <a href="https://www.facebook.com/gui.gallagher94/"><img src="img/face.png" height="35" width="35"></a></img>
       &nbsp; 
-        <img src="img/likedin.png" height="35" width="35"><a href="#"></a></img>
+        <a href="https://www.linkedin.com/in/guilherme-reis-3546961a9/"><img src="img/likedin.png" height="35" width="35"></a></img>
         
-        <img src="img/git.png" height="35" width="35"><a href="#"></a></img>
+        <a href="https://github.com/GuilhermeReis94"><img src="img/git.png" height="35" width="35"></a></img>
         
-        <a href="mailto:email_que_recebe_as_mensagens@exemplo.com?Subject=Título%20da%20mensagem">  <img src="img/email3.png" height="35" width="35"> </img> </a>
+        <a href="mailto:g.iagogti@gmail.com?Subject=Título%20da%20mensagem">  <img src="img/email3.png" height="35" width="35"> </img> </a>
 
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Quem sou ?<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">Quem sou?<i class="material-icons right">close</i></span>
       <p> Um cara curioso que procura saber como tudo funciona, apaixonado pela informática, fez curso técnico e atualmente cursa Bacharelado em sistemas de informação na FHO Uniararas.</p>
     </div>
   </div>
@@ -270,16 +299,16 @@ jQuery(document).ready(function($) {
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Herica Cadoni</span>
       <br>
-      <img src="img/face.png" height="35" width="35"><a href="#"></a></img>
+      <img src="img/faceDesativado.png" height="35" width="35"></img>
       &nbsp; 
-        <img src="img/likedin.png" height="35" width="35"><a href="#"></a></img>
+        <a href="https://www.linkedin.com/in/h%C3%A9rica-cadoni-35519a198/"><img src="img/likedin.png" height="35" width="35"></a></img>
         
-        <img src="img/git.png" height="35" width="35"><a href="#"></a></img>
+        <a href="https://github.com/IamHerica"><img src="img/git.png" height="35" width="35"></a></img>
         
-        <a href="mailto:email_que_recebe_as_mensagens@exemplo.com?Subject=Título%20da%20mensagem">  <img src="img/email3.png" height="35" width="35"> </img> </a>
+        <a href="mailto:hericacadoni@gmail.com?Subject=Título%20da%20mensagem">  <img src="img/email3.png" height="35" width="35"> </img> </a>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Quem sou ?<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">Quem sou?<i class="material-icons right">close</i></span>
       <p> Estudante de t.i, apaixonada por animais e software, vivendo em Mogi Guaçu, em busca de novas experiências.</p>
     </div>
   </div>
@@ -293,16 +322,16 @@ jQuery(document).ready(function($) {
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Juan Lopes</span>
       <br>
-      <img src="img/face.png" height="35" width="35"><a href="#"></a></img>
+      <a href="https://www.facebook.com/juanmarco.montoni"><img src="img/face.png" height="35" width="35"></a></img>
       &nbsp; 
-        <img src="img/likedin.png" height="35" width="35"><a href="#"></a></img>
+        <a href="https://www.linkedin.com/in/juan-lopes-84530a146/"><img src="img/likedin.png" height="35" width="35"></a></img>
         
-        <img src="img/git.png" height="35" width="35"><a href="#"></a></img>
+        <a href="https://github.com/JuanL0pes"><img src="img/git.png" height="35" width="35"></a></img>
         
-        <a href="mailto:email_que_recebe_as_mensagens@exemplo.com?Subject=Título%20da%20mensagem">  <img src="img/email3.png" height="35" width="35"> </img> </a>
+        <a href="mailto:juanlopes3972@gmail.com?Subject=Título%20da%20mensagem">  <img src="img/email3.png" height="35" width="35"> </img> </a>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Quem sou ?<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">Quem sou?<i class="material-icons right">close</i></span>
       <p> Futuro Bacharel em sistemas de informação, apaixonado por tecnologia, finanças, aviação e inovação. Amo desafios e trabalho em equipe, está com problemas? Vamos resolver juntos!</p>
     </div>
   </div>
@@ -316,16 +345,16 @@ jQuery(document).ready(function($) {
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Lucas Delfini</span>
       <br>
-      <img src="img/face.png" height="35" width="35"><a href="#"></a></img>
+      <a href="https://www.facebook.com/lucas.delfini.16"><img src="img/face.png" height="35" width="35"></a></img>
       &nbsp; 
-        <img src="img/likedin.png" height="35" width="35"><a href="#"></a></img>
+        <a href="https://www.linkedin.com/in/lucas-delfini-ribeiro-da-silva-8388357a/"><img src="img/likedin.png" height="35" width="35"></a></img>
         
-        <img src="img/git.png" height="35" width="35"><a href="#"></a></img>
+        <a href="https://github.com/Lucas41"><img src="img/git.png" height="35" width="35"></a></img>
         
-        <a href="mailto:email_que_recebe_as_mensagens@exemplo.com?Subject=Título%20da%20mensagem">  <img src="img/email3.png" height="35" width="35"> </img> </a>
+        <a href="mailto:delfini.lucas@hotmail.com?Subject=Título%20da%20mensagem">  <img src="img/email3.png" height="35" width="35"> </img> </a>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Quem sou ?<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">Quem sou?<i class="material-icons right">close</i></span>
       <p>20 anos cursando sistemas da informação. Apaixonado por informática e cultura pop e como diz uma frase de um famoso jogo:  "Todos nós fazemos escolhas na vida, mas no final nossas escolhas nos fazem" então porquê não nos conhecemos um pouco melhor?</p>
     </div>
   </div>
@@ -356,37 +385,14 @@ jQuery(document).ready(function($) {
   $(document).ready(function(){
     $('.modal').modal();
   });
-
-  
-  
-
     </script>
 
 <footer class="page-footer yellow darken-2">
           <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
+            <center><b>Char NaoTemPause[5]©</b>
+            <p><i>“Se, a princípio, a ideia não é absurda, então não há esperança para ela.”</i><br>Albert Einstein</p></center>
+            <br>
           </div>
         </footer>
-
     </body>
   </html>
